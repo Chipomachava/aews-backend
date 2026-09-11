@@ -1,0 +1,1 @@
+SELECT ai."indicatorID", ai.name, ai."minValue", ai."maxValue", ai."higherIsBetter", sw."weightValue" FROM academic_indicators ai JOIN scoring_weights sw ON sw."indicatorID" = ai."indicatorID" ORDER BY ai."indicatorID";
