@@ -18,6 +18,8 @@ class InterventionNoteResolve(BaseModel):
 class InterventionNoteResponse(BaseModel):
     interventionID: int
     studentID: int
+    studentNumber: Optional[str] = None
+    studentInitials: Optional[str] = None
     lecturerID: int
     interventionType: str
     description: str

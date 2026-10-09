@@ -14,3 +14,5 @@ from app.models.risk_contribution import RiskContribution
 from app.models.intervention_note import InterventionNote
 from app.models.audit_log import AuditLog
 from app.models.health_report import HealthReport
+from app.models.intervention_reply import InterventionReply
+from app.models.intervention_attachment import InterventionAttachment
